@@ -1,7 +1,7 @@
 vcpkg_from_github(
         OUT_SOURCE_PATH SOURCE_PATH
         REPO PurpurTentakel97/cpt-lib
-        REF "${VERSION}"
+        REF "v${VERSION}"
         SHA512 0
         HEAD_REF main
 )
