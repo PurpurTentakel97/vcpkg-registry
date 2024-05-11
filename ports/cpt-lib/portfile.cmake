@@ -9,6 +9,9 @@ vcpkg_from_github(
 vcpkg_cmake_configure(
         SOURCE_PATH "${SOURCE_PATH}"
         OPTIONS
+        "-Dcpt_lib_warnings_as_errors=OFF"
+        "-Dcpt_lib_enable_undefined_behavior_sanitizer=OFF"
+        "-Dcpt_lib_enable_address_sanitizer=OFF"
         "-Dcpt_lib_tests=OFF"
 )
 vcpkg_cmake_install()
