@@ -2,7 +2,7 @@ vcpkg_from_github(
         OUT_SOURCE_PATH SOURCE_PATH
         REPO PurpurTentakel97/cpt-lib
         REF "v${VERSION}"
-        SHA512 b6c939f552f05f0d932ff58c12306e688ce845cac281ea39cfce1460a9d4ec068b6a9a377b92bcdbf374203c876824db847389372229bd9704c7aa7c2974df2a
+        SHA512 c61605301fb21a889eda4801430896f4737b4434f54fbcb90ea5cdd20222f30583176db4b138a30bb8ec9f98153f3ea1bc01e0fcf356815d5ef2e24ee1b7de0a
         HEAD_REF main
 )
 
