@@ -1,6 +1,6 @@
 {
   "name": "cpt-lib",
-  "version-string": "1.0.1",
+  "version-string": "1.1.0",
   "port-version": 0,
   "description": "Simple cpp library.",
   "homepage": "https://github.com/PurpurTentakel97",
@@ -14,6 +14,7 @@
       "name": "vcpkg-cmake-config",
       "host": true
     },
-    "tl-expected"
+    "tl-expected",
+    "tl-optional"
   ]
 }
